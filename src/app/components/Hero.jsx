@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="flex flex-col gap-5 px-25 py-40">
+    <section className="flex flex-col gap-5 px-5 md:px-25 py-40">
       <motion.div
         className="text-6xl md:text-8xl font-semibold text-[#76ABAE]"
         initial={{ y: 50, opacity: 0 }}

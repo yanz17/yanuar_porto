@@ -17,7 +17,7 @@ export default function Projects({ projects }) {
         {projects.map((project, i) => (
           <motion.div
             key={project.title}
-            className="bg-[#222831] rounded-xl shadow-lg overflow-hidden hover:scale-[1.02] transition"
+            className="bg-[#31363F] rounded-xl shadow-lg overflow-hidden hover:scale-[1.02] transition"
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}

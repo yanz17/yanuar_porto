@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Footer({ socials }) {
   return (
-    <footer className="py-10 bg-[#222831] text-center">
+    <footer className="py-10 bg-[#31363F] text-center">
       <motion.p
         className="mb-6 text-gray-300"
         initial={{ opacity: 0 }}

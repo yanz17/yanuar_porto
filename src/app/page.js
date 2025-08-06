@@ -8,7 +8,7 @@ import { stacks, projects, socials } from "./data/data";
 
 export default function Home() {
   return (
-    <main className="bg-[#31363F]">
+    <main className="bg-[#222831]">
       <Navbar/>
       <Hero />
       <TechStack stacks={stacks} />
